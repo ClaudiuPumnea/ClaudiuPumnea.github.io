@@ -1,0 +1,60 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+.man {
+  animation: jump;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+  animation-direction: alternate;
+}
+
+.head {
+  /* TODO */
+}
+
+.body {
+  /* TODO */
+}
+
+.left.hand {
+  /* TODO */
+}
+
+.right.hand {
+  animation-name: righthandHi;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+}
+
+.left.foot {
+  /* TODO */
+}
+
+.right.foot {
+  /* TODO */
+}
+
+@keyframes jump {
+  from {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, -10px);
+  }
+}
+
+@keyframes righthandHi {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-130deg);
+  }
+}
